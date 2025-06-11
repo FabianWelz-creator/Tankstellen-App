@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom Farben */
+@theme {
+  --color-background: hsl(0, 0%, 100%);
+  --color-foreground: hsl(210, 15%, 10%);
+  --color-dark: hsl(222, 28%, 10%);
+}
+
+/* Basestyles */
+@layer base {
+  html {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply bg-white text-gray-900 transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
