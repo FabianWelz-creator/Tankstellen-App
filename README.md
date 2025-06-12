@@ -17,7 +17,7 @@ Einfaches Projekt zur Darstellung von Tankstellen in Köln, mit Sortier- und Suc
 - 🎯 Responsive Design
 
 
-## Code Challenge Antworten auf Fragen
+## Kollaboratives Entwickeln & Codequalität
 
 **Ziel:** Gemeinsame Entwicklung effizient gestalten und die Codequalität sichern.
 
